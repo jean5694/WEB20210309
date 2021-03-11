@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <h1>Laboriosam, voluptatibus eos?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae eligendi quaerat commodi necessitatibus atque sequi ex labore quia odit quis. Ut nihil odio aliquid ullam reiciendis iure fugiat corporis officiis.</p>
+    <p>Inventore, enim eveniet, fuga eaque quisquam culpa, doloribus sunt repellat vero maiores et nihil! Minus, porro? Necessitatibus tempore ea libero possimus fuga maiores, aperiam atque, incidunt sequi nihil aspernatur sed!</p>
+    <p>Odio ipsum corporis, debitis, nulla iste natus obcaecati sequi a ad qui numquam recusandae doloremque nemo veniam repellendus commodi dolorum? Magnam ducimus perspiciatis suscipit distinctio hic ratione quod expedita mollitia.</p>
+</body>
+</html>
