@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /*
+        id: 100점
+        class : 10점
+        element : 1점
+
+        우선 채택 순위 : id >class> element  
+        같은 점수일 떈 : 가장 아래있는 것 먼저 적용됨
+        */
+
+        h1 {
+            color:red;
+        }
+        .special {
+            color: blue;
+        }
+        .note {
+            color: yellow;
+        }
+        .note.special {
+            color: pink;
+        }
+        #header1 {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="note">Lorem, ipsum dolor.</h1> <!-- 구성 요소가 다른 경우 -->
+    <h1 class="note special">Necessitatibus, voluptatem magni!</h1> <!-- 같은 점수인 경우-->
+    <h1 id="header1" class="note special">Saepe, recusandae modi!</h1>
+    <h1>Deserunt, architecto assumenda?</h1>
+    <h1>Eligendi, reiciendis libero.</h1>
+</body>
+</html>
