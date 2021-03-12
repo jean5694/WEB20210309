@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body, html {
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #percent {
+        font-size: 100%;
+    }
+    .em {
+        font-size: 0.75em;
+        /* 1em = 100% */
+    }
+    .rem {
+        font-size: 0.75rem;
+    }
+</style>
+</head>
+<body>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem alias odit vero delectus, repellat beatae voluptatibus reprehenderit obcaecati quod. Labore deleniti quas saepe quisquam, assumenda aperiam dicta vel et ad!</p>
+<p id="percent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia nobis veniam voluptate soluta deserunt. Laboriosam quibusdam ipsum soluta molestiae voluptatem laborum, in alias a! Ipsa sunt dolore quae cum?</p>
+<p class="em">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae delectus provident commodi iure officia facere ad dolorem enim nam voluptate aliquid quibusdam, quaerat repellendus, soluta, quod impedit ducimus quisquam doloremque.</p>
+<div class="em"> <!-- body 기준으로 0.75%-->
+    <p class="em">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, nam voluptatum molestias, sint provident facilis nesciunt mollitia dignissimos rerum reprehenderit id! Ipsam sapiente, natus aspernatur dignissimos commodi eaque nemo beatae!</p>
+    <!-- ↑ div 기준으로 0.75%-->
+
+    <div class="rem">
+        <p class="rem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis corporis culpa debitis, ratione, explicabo veritatis cumque nulla doloremque illo sunt, laboriosam quas neque. Illum enim minus nemo quibusdam! Voluptas, expedita?</p>
+    </div>
+</div>
+</body>
+</html>
