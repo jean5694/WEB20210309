@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    /* p 요소이면서 누군가의 첫번째 자식 */
+    p:nth-child(1) {
+        background-color: blue;
+    }
+    p:nth-child(2) {
+        background-color: lightblue;
+    }
+    p:nth-child(odd) {
+        text-decoration: underline;
+    }
+    p:nth-child(even) {
+        font-weight : bold;
+    }
+
+    table, th, td {
+        border:1px solid black;
+    }
+    table {
+        width :100%;
+    }
+    th, td {
+        height: 30px;
+    }
+    /* odd : 홀수 even : 짝수 */
+    tr:nth-child(even) {
+        background-color: burlywood;
+    }
+</style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis iusto quam totam inventore aliquam qui minus eum illum sequi deserunt, atque ad eligendi aspernatur fugit ex dolorum repellat voluptatem?</p>
+        <p>Assumenda est distinctio, at expedita, fuga officiis dolor dignissimos aliquid consequatur repellat facere illum, eveniet mollitia fugiat adipisci voluptate? Veritatis nam enim id quo minus molestias possimus unde nulla tempora.</p>
+        <p>Tempora omnis, nobis error ullam quibusdam est iure neque harum hic? Suscipit non porro repellat atque beatae sit assumenda labore, quidem quasi natus quaerat dolores laboriosam maiores incidunt sequi fuga!</p>
+        <p>Voluptate quisquam eaque, eos repudiandae doloremque itaque soluta nihil, explicabo, aliquam vitae et. Quam alias aliquid labore laudantium? Hic possimus adipisci rerum pariatur obcaecati eum enim animi quas ipsum in.</p>
+        <p>Quibusdam cupiditate repudiandae doloribus voluptatibus aliquam cumque consequuntur reprehenderit quasi, incidunt molestiae soluta asperiores inventore commodi neque saepe blanditiis odio provident ratione unde suscipit nostrum omnis ex repellat. Illo, explicabo?</p>
+    </div>
+
+    <!-- table>tr>th*3>lorem^^tr*4>td*3>lorem1 -->
+<table>
+    <tr>
+        <th>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repudiandae quas inventore aspernatur, velit pariatur dolor sit magni maxime nemo veniam autem saepe corporis consequatur. Maxime perspiciatis enim similique eius!</th>
+        <th>Blanditiis placeat doloremque consequatur quae obcaecati nostrum aspernatur quod maiores ipsam ex exercitationem consectetur aliquid deleniti, harum molestias cupiditate eos. Quae at tempore sit ut provident? Adipisci in voluptas mollitia?</th>
+        <th>Delectus facilis voluptatum iure voluptates harum nobis aliquid! Qui possimus nam voluptatem rem exercitationem dicta veniam aliquid aut, dolore autem, earum obcaecati, reiciendis consequuntur. Dolor reprehenderit nisi facilis in iure.</th>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Expedita!</td>
+        <td>Commodi.</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Saepe.</td>
+        <td>Quia?</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Voluptatem.</td>
+        <td>Tempora!</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Consectetur?</td>
+        <td>Voluptatum.</td>
+    </tr>
+</table>
+</body>
+</html>
