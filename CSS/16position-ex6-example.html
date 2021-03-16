@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .main {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .main > li {
+        box-sizing: border-box;
+        width : 200px;
+        height: 100px;
+        border: 5px solid green;
+        position: relative;
+    }
+
+    .sub {
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        top: -5px;
+        left: 195px;
+        list-style-type: none;
+        display: none;
+    }
+    .sub > li {
+        box-sizing: border-box;
+        width: 200px;
+        height: 100px;
+        border: 5px solid blue;
+    }
+    .main>li:hover>.sub {
+        display: block;
+    }
+
+</style>
+</head>
+<body>
+<ul class="main">
+    <li>Lorem.
+        <ul class="sub">
+            <li>Lorem.</li>
+            <li>Porro.</li>
+            <li>Temporibus?</li>
+            <li>Dolorum!</li>
+            <li>Eaque.</li>
+        </ul>
+    </li>
+    <li>Eum!
+        <ul class="sub">
+            <li>Lorem.</li>
+            <li>Maiores.</li>
+            <li>Animi.</li>
+            <li>Perspiciatis?</li>
+            <li>Corporis.</li>
+        </ul>
+    </li>
+    <li>Voluptatibus?
+        <ul class="sub">
+            <li>Lorem.</li>
+            <li>Soluta?</li>
+            <li>Eveniet.</li>
+            <li>Corrupti!</li>
+            <li>Nam!</li>
+        </ul>
+    </li>
+    <li>Ad.
+        <ul class="sub">
+            <li>Lorem.</li>
+            <li>Provident?</li>
+            <li>Vel!</li>
+            <li>Soluta.</li>
+            <li>Culpa.</li>
+        </ul>
+    </li>
+    <li>Praesentium?
+        <ul class="sub">
+            <li>Lorem.</li>
+            <li>Numquam.</li>
+            <li>Perferendis?</li>
+            <li>Quibusdam?</li>
+            <li>Eaque.</li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>
