@@ -1,27 +1,39 @@
 <html>
+
 <body>
-    
-    <p>Lorem 
-        <a href="https://www.daum.net">ipsum</a> 
+    <h3>Link Syntax</h3>
+    <p>Lorem
+        <a href="https://www.daum.net">ipsum</a>
         <a href="https://www.naver.com">dolor</a>
-         sit amet consectetur adipisicing elit. Commodi consequuntur iusto quos fuga, asperiores ducimus voluptatum dicta natus architecto doloribus nihil, vitae nemo consectetur illo ipsum, quas blanditiis enim esse?</p>
+        sit amet consectetur adipisicing elit.
+    </p>
 
-<hr>
-<a href="https://www.google.com" target="_self">google</a>
-<a href="https://www.w3schools.com" target="_blacnk">wc3schools</a>
-<hr>
-<a href="color-ex1.html">color</a>
+    <hr>
+    <h3>Link : target attribute</h3>
+    <!-- target="_self" 현재 창에서 보여줌, 기본값 -->
+    <a href="https://www.google.com" target="_self">google_self</a>
+    <!-- target="_blank" 새로운 창에서 보여줌, 작성 필요함 -->
+    <a href="https://www.w3schools.com" target="_blank">wc3schools_blank</a>
 
-<hr>
-<a href="https://www.google.com" style="text-decoration: underline;">google</a>
-<a href="https://www.google.com" style="text-decoration: none;">google</a>
-<a href="https://www.google.com" style="text-decoration: line-through;">google</a>
+    <hr>
+    <h3>Link : relative URLs</h3>
+    <!-- 같은 폴더 또는 현재 웹사이트 html 폴더 경로로 이동 -->
+    <a href="color-ex1.html">color</a>
 
-<hr>
-<a href="https://www.google.com">
-    <img src="제니.jpg" alt="">
-</a>
+    <hr>
+    <h3>Link : style </h3>
+    <!-- attribute style을 일반 태그에 쓰는 것처럼 사용 가능함
+    CSS <style>을 사용할 경우 button, color(text) 등 더 다양한 기능으로 사용 가능함-->
+    <a href="https://www.google.com" style="text-decoration: underline;">google_underline</a>
+    <a href="https://www.google.com" style="text-decoration: none;">google_none</a>
+    <a href="https://www.google.com" style="text-decoration: line-through;">google_line-through</a>
+
+    <hr>
+    <h3>Link : image</h3>
+    <a href="https://www.google.com">
+        <img src="제니.jpg" alt="">
+    </a>
 
 </body>
-</html>
 
+</html>
