@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<script>
+    //number
+    var a = 34;
+    var b = 3.14;
+
+    //string (문자열 text) ""
+    var c = "javascript";
+    var d = "java"; 
+    // var d = java; ""가 빠진 경우 : 변수 값으로 취급됨
+    var e = 'java';
+    var f = "it's java'";
+    var g = 'name="john"';
+    var h = 'it\'s java';
+    var i = "name=\"john\""
+    // f=h , g=i
+    var j = "3"; // 문자
+    var k = 3; // 숫자
+    var l = "4"; // 문자
+    var m = 4; // 숫자
+
+    // 문자, 문자
+    console.log(j + l );
+    console.log(j - l );
+    console.log(j * l );
+    console.log(j / l );
+    // 값이 문자, 문자로 작성된 경우, 사칙연산 중 더하기만 연결연산자로 뜸
+
+    // 문자 , 숫자
+    console.log(j + m ); // 값 중 하나라도 문자가 섞여있으면 연결연산자로 뜸
+    console.log(j - m );
+    console.log(j * m );
+    console.log(j / m );
+
+    // 숫자, 숫자
+    console.log(k + m );
+    console.log(k - m );
+    console.log(k * m );
+    console.log(k / m );
+    // 값이 숫자, 숫자로 작성된 경우, 사칙연산 모두 정상적으로 계산되는 걸 확인할 수 있음
+
+</script>
+
+</body>
+</html>
