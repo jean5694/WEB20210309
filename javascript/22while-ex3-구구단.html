@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='../css/all.min.css'>
+<style>
+</style>
+</head>
+<body>
+<input type="text" placeholder="출력할 단을 입력해 주세요.">
+
+<button onclick="gugudan()">출력</button>
+
+<div id="result">
+
+</div>
+
+<script>
+
+    function gugudan () {
+        var dan = document.querySelector("input").value;
+        dan = Number(dan);
+        
+        var txt = "";
+        var i = 1;
+        while (i <= 9) {
+            i++;
+            txt += dan + "X" + i + "=" + (dan * i) + "<br>"
+        
+        }
+
+        document.getElementById("result").innerHTML = txt;
+
+        }
+</script>
+</body>
+</html>
