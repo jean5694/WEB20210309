@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='../css/all.min.css'>
+    <style>
+    </style>
+</head>
+
+<body>
+    <script>
+        var arr1 = [3, 4, 1, 99, 2, 10];
+        // 숫자로 작성했어도 이대로 사용하면 문자로 정렬이 되기 때문에 sort로 정렬을 따로 시켜주는 게 좋음
+
+        arr1.sort(function (a, b) {
+            return a - b;
+        });
+
+        for (var i = 0; i < arr1.length; i++) {
+            console.log(arr1[i]);
+        }
+    </script>
+</body>
+
+</html>
