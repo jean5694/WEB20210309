@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+
+<script>
+    console.log("function");
+    function f(x) {
+        return (2 * x) +1;
+        
+    }
+    console.log(f(3));
+
+    function func(y) {
+       return (3 * (y * y)) + 52*y +273
+    }
+    console.log(func(4));
+
+    console.log("------------");
+    console.log("callback");
+
+    function myfunc1(b) {
+        b();
+    }
+
+    myfunc1 (function() {
+        // alert("This is sample");
+        console.log("This is myfunc1.");
+    });
+
+    console.log("------------");
+    console.log("object");
+
+    var handcream = {
+        제품명 :"atrix",
+        유형 : "protection cream",
+        사용법 : "손피부가 건조할 때마다 부드럽게 사용해 주세요.",
+        Tip1 : "순한 무색소의 저자극 포뮬러",
+        Tip2 : "100년 전통의 Beiersdorf 피부 연구 센터에 의해 개발된 저자극 고보습 처방"
+    };
+
+    for (var i in handcream) {
+        console.log(i + ":" + handcream[i]);
+    }
+
+    console.log("------------");
+    console.log("method");
+    var person = {
+        name : '선우는 ',
+        play : function (game) {
+            console.log(person.name + game + '을 매일 합니다.');
+        }
+    };
+
+    person.play('롤');
+
+    console.log("------p.331 09번------");
+    console.log("for");
+    for (var i=1; i <=10; i++) {
+        if (i % 5 == 0){
+            // alert(i);
+            console.log(i);
+        }
+    }
+
+    console.log("while");
+    var j = 1
+    while (j <= 10) {
+        if (j % 5 == 0) {
+            console.log(j); 
+        }
+        j++;
+    }
+
+
+    console.log("------p.331 10번------");
+    console.log("while");
+    var i=10;
+    while (i >= 0) {
+        // alert(i);
+        console.log(i);
+        i -= 3;
+    }
+
+    console.log("for");
+    for (i = 10; i >= 0; i -= 3) {
+        console.log(i);
+    }
+
+
+</script>
+</body>
+</html>

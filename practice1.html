@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    </style>
+</head>
+
+<body>
+    <input type="text" id="input1" placeholder="inch를 입력하시오.">
+    <br>
+    <button onclick="cm()">cm로 변환</button>
+    <br>
+    <button onclick="feet()">feet로 변환</button>
+
+    <div id="result"></div>
+
+    <script>
+
+        function cm() {
+            var a = document.getElementById("input1").value;
+            var res = a*2.54;
+        
+            document.getElementById("result").innerHTML = res;
+        }
+
+        function feet() {
+            var a = document.getElementById("input1").value;
+            var res = (a/12);
+        
+            document.getElementById("result").innerHTML = res;
+        }
+        
+      
+        var number = 10;
+       
+        var test =function () {return 10}
+        function test() {return 20}
+        alert (test)
+    </script>
+</body>
+
+</html>
