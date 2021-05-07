@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='../css/all.min.css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+</style>
+<script>
+    $(document).ready(function () {
+        $("#btn1").click(function () {
+            $("p").slideUp(1000);
+        });
+        $("#btn2").click(function () {
+            $("p").slideDown(1000);
+        });
+        $("#btn3").click(function () {
+            $("p").slideToggle(1000);
+        });
+    });
+</script>
+</head>
+<body>
+<!-- button*3#btn$+p>lorem10 -->
+<button id="btn1">slide up</button>
+<button id="btn2">slide down</button>
+<button id="btn3">slide toggle</button>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, deleniti!</p>
+</body>
+</html>
